@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <!-- Add your CSS styles here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+
+   <!-- Add this code to your HTML file, where you want the dropdowns to appear -->
+
+<label for="fromCurrency">From Currency:</label>
+<select id="fromCurrency">
+  <!-- You can add more options as needed -->
+  <option value="USD">USD - United States Dollar</option>
+  <option value="EUR">EUR - Euro</option>
+  <option value="GBP">GBP - British Pound Sterling</option>
+  <!-- Add more currency options here -->
+</select>
+
+<label for="toCurrency">To Currency:</label>
+<select id="toCurrency">
+  <!-- You can add more options as needed -->
+  <option value="EUR">EUR - Euro</option>
+  <option value="USD">USD - United States Dollar</option>
+  <option value="GBP">GBP - British Pound Sterling</option>
+  <!-- Add more currency options here -->
+</select>
+    
+    <div>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount">
+    </div>
+    <button id="convertButton">Convert</button>
+    <div id="result"></div>
+
+    <div id="result">Converted amount will be displayed here</div>
+    
+    
+
+    <script src="renderer.js"></script>
+</body>
+</html>

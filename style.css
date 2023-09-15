@@ -1,0 +1,61 @@
+/* style.css */
+
+/* Background styling for a glassmorphic effect */
+body {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the conversion form */
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15); /* Background color with transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Adjust the blur level as needed */
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input fields */
+  input[type="text"],
+  input[type="number"],
+  button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 5px;
+    border-radius: 5px;
+    background: rgba(215, 151, 151, 0.8); /* Input background with transparency */
+    backdrop-filter: blur(3px); /* Adjust the blur level as needed */
+  }
+  
+  /* Convert button */
+  button {
+    cursor: pointer;
+    background: #4CAF50; /* Green color for the button */
+    color: #fff;
+    transition: background 0.3s ease;
+  }  
+  
+  button:hover {
+    background: #2f8533; /* Darker green color on hover */
+  }
+  
+  /* Result text */
+  #result {
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(210, 134, 134, 0.8); /* Result background with transparency */
+    border-radius: 5px;
+    backdrop-filter: blur(3px); /* Adjust the blur level as needed */
+    font-weight: bold;
+  }
+  
